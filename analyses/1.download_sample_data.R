@@ -26,8 +26,8 @@ data_path <- file.path("data", species, region)
 
 # Parameters: 1. username and password, 2. name of Movebank study, 3. years and months that will be downloaded
 loginStored <- move::movebankLogin(
-  username = "duriez",
-  password = "Kerguelen47!"
+  username = "YOURID",
+  password = "YOURPASSWORD"
 )
 
 studyName <- "Eurasian griffon vulture in France ID_PROG 961"
